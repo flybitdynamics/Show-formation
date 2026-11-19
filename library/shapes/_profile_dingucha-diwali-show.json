@@ -1,0 +1,42 @@
+{
+ "source": "Dingucha Diwali Show",
+ "fps": 24.0,
+ "drone_count": 100,
+ "grid_rows": 10,
+ "grid_columns": 10,
+ "grid_spacing": 1.0,
+ "takeoff_altitude": 6.0,
+ "takeoff_layers": [
+  6.0,
+  11.0,
+  16.0,
+  21.0
+ ],
+ "max_velocity_xy": 8.0,
+ "max_velocity_z": 3.0,
+ "max_acceleration": 4.0,
+ "min_distance": 2.0,
+ "max_altitude": 150.0,
+ "min_nav_altitude": 2.5,
+ "drone_radius": 0.5,
+ "light_effects": 84,
+ "shapes": [
+  "100/ganpati-face",
+  "100/hands",
+  "100/mata-face",
+  "100/amba",
+  "100/maa",
+  "100/mandala",
+  "100/diya",
+  "100/garba-girl",
+  "100/shiv",
+  "100/hanuman",
+  "100/om",
+  "100/ram-face",
+  "100/ram",
+  "100/dingucha",
+  "100/brahmani",
+  "100/temple",
+  "100/flybit"
+ ]
+}

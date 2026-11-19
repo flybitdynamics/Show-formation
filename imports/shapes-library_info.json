@@ -1,0 +1,39 @@
+{
+ "name": "Shapes Library",
+ "shapes": [
+  {
+   "id": "200/boy-girl-holding-hands",
+   "name": "Boy&Girl Holding Hands",
+   "drone_count": 200
+  },
+  {
+   "id": "200/bride-and-groom",
+   "name": "Bride and Groom",
+   "drone_count": 200
+  },
+  {
+   "id": "200/man-proposing-2",
+   "name": "Man Proposing 2",
+   "drone_count": 200
+  },
+  {
+   "id": "200/holding-fingers",
+   "name": "Holding Fingers",
+   "drone_count": 200
+  },
+  {
+   "id": "200/man-proposing",
+   "name": "Man Proposing",
+   "drone_count": 200
+  },
+  {
+   "id": "200/rose",
+   "name": "Rose",
+   "drone_count": 200
+  }
+ ],
+ "drone_counts": [
+  200
+ ],
+ "has_show": false
+}

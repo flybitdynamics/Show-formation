@@ -1,0 +1,100 @@
+{
+ "ok": true,
+ "warnings": [
+  "Skybrush Studio Server did not plan this show; Skybrush planned it inside Blender instead. Server 64-drone limit reached; automatically enabling local transition planner.",
+  "Drones come within 1.22 m of each other at 110.5 s (limit 2.0 m)."
+ ],
+ "files": {
+  "blend": "new-drone-show.blend",
+  "fx": "new-drone-show_fx.py",
+  "preview": "new-drone-show_preview.json",
+  "skyc": "new-drone-show.skyc"
+ },
+ "planner": {
+  "requested": "server",
+  "used": "local (server fallback)",
+  "online_access": true,
+  "notes": [
+   "Server 64-drone limit reached; automatically enabling local transition planner.",
+   "Server takeoff planner unavailable or failed (Forbidden: Request contains too many points; maximum allowed is 64); falling back to local decomposition."
+  ]
+ },
+ "light_effects": 15,
+ "check": {
+  "duration": 290.4,
+  "frames": 6971,
+  "min_distance": 1.22,
+  "min_distance_time": 110.5,
+  "max_velocity_xy": 2.71,
+  "max_velocity_up": 2.0,
+  "max_velocity_down": 2.03,
+  "max_altitude": 111.7,
+  "limits": {
+   "min_distance": 2,
+   "max_velocity_xy": 10,
+   "max_velocity_z": 2,
+   "max_acceleration": 4,
+   "max_altitude": 150,
+   "min_nav_altitude": 2.5
+  }
+ },
+ "timeline": [
+  {
+   "name": "Takeoff grid",
+   "frame_start": 1,
+   "frame_end": 1,
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "name": "Takeoff",
+   "frame_start": 482,
+   "frame_end": 482,
+   "start": 20.04,
+   "end": 20.04
+  },
+  {
+   "name": "01 Amba",
+   "frame_start": 2377,
+   "frame_end": 2424,
+   "start": 99.0,
+   "end": 100.96
+  },
+  {
+   "name": "02 Diya",
+   "frame_start": 2905,
+   "frame_end": 3000,
+   "start": 121.0,
+   "end": 124.96
+  },
+  {
+   "name": "03 Garba Girl",
+   "frame_start": 3553,
+   "frame_end": 3648,
+   "start": 148.0,
+   "end": 151.96
+  },
+  {
+   "name": "04 Dingucha",
+   "frame_start": 4153,
+   "frame_end": 4560,
+   "start": 173.0,
+   "end": 189.96
+  },
+  {
+   "name": "Return to home",
+   "frame_start": 6371,
+   "frame_end": 6371,
+   "start": 265.42,
+   "end": 265.42
+  },
+  {
+   "name": "Landing",
+   "frame_start": 6971,
+   "frame_end": 6971,
+   "start": 290.42,
+   "end": 290.42
+  }
+ ],
+ "seconds": 276.1
+}

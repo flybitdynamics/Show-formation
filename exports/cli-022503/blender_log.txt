@@ -1,0 +1,108 @@
+Error in bpy.app.handlers.load_post[13]:
+Traceback (most recent call last):
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\pyro_effects.py", line 84, in run_tasks_post_load
+    ensure_overlays_enabled()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\pyro_effects.py", line 79, in ensure_overlays_enabled
+    pyro_control.ensure_overlays_enabled_if_needed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\model\pyro_control.py", line 145, in ensure_overlays_enabled_if_needed
+    get_overlay().enabled = self.visualization in ["MARKERS", "INFO"]
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 73, in enabled
+    self.prepare()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 122, in prepare
+    self._shader = gpu.shader.from_builtin(self.shader_type)
+                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+SystemError: GPU functions for drawing requires the gpu module to be initialized. See gpu.init.
+Error in bpy.app.handlers.load_post[14]:
+Traceback (most recent call last):
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\safety_check.py", line 426, in run_tasks_post_load
+    ensure_overlays_enabled()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\safety_check.py", line 405, in ensure_overlays_enabled
+    safety_check.ensure_overlays_enabled_if_needed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\model\safety_check.py", line 551, in ensure_overlays_enabled_if_needed
+    get_overlay().enabled = (
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 73, in enabled
+    self.prepare()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 122, in prepare
+    self._shader = gpu.shader.from_builtin(self.shader_type)
+                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+SystemError: GPU functions for drawing requires the gpu module to be initialized. See gpu.init.
+PROGRESS 2 Preparing a new Blender scene
+Info: Saved as "server-49-test.blend"
+PROGRESS 6 Creating takeoff grid for 49 drones
+PROGRESS 10 Planning takeoff
+PROGRESS 12 Adding formation 1/2: A
+PROGRESS 21 Adding formation 2/2: B
+PROGRESS 32 Calculating transitions (collision-free matching)
+Info: Recalculated transitions without changing frame counts
+PROGRESS 40 Planning return to home
+Info: Recalculated transitions without changing frame counts
+PROGRESS 46 Planning landing
+Info: Recalculated transitions without changing frame counts
+PROGRESS 50 Building light effects
+PROGRESS 58 Saving Blender file
+Info: Saved as "server-49-test.blend"
+PROGRESS 60 Checking the flight (distance, speed, altitude)
+PROGRESS 60 Checking the flight: 0%
+PROGRESS 61 Checking the flight: 5%
+PROGRESS 62 Checking the flight: 11%
+PROGRESS 63 Checking the flight: 17%
+PROGRESS 64 Checking the flight: 23%
+PROGRESS 65 Checking the flight: 28%
+PROGRESS 66 Checking the flight: 34%
+PROGRESS 68 Checking the flight: 40%
+PROGRESS 69 Checking the flight: 46%
+PROGRESS 70 Checking the flight: 51%
+PROGRESS 71 Checking the flight: 57%
+PROGRESS 72 Checking the flight: 63%
+PROGRESS 73 Checking the flight: 69%
+PROGRESS 74 Checking the flight: 74%
+PROGRESS 76 Checking the flight: 80%
+PROGRESS 77 Checking the flight: 86%
+PROGRESS 78 Checking the flight: 92%
+PROGRESS 79 Checking the flight: 97%
+PROGRESS 82 Exporting .skyc show file
+Sampling trajectories at 4 FPS: frame 1 in range (1, 4164), 0.1%, 00:03 left
+Sampling trajectories at 4 FPS: frame 4164 in range (1, 4164), 100.0%, 00:00 left
+: done.
+Sampling lights at 25 FPS: frame 1 in range (1, 4164), 0.0%, 00:16 left
+Sampling lights at 25 FPS: frame 180 in range (1, 4164), 4.3%, 00:22 left
+Sampling lights at 25 FPS: frame 361 in range (1, 4164), 8.7%, 00:21 left
+Sampling lights at 25 FPS: frame 532 in range (1, 4164), 12.8%, 00:20 left
+Sampling lights at 25 FPS: frame 694 in range (1, 4164), 16.7%, 00:20 left
+Sampling lights at 25 FPS: frame 866 in range (1, 4164), 20.8%, 00:19 left
+Sampling lights at 25 FPS: frame 1033 in range (1, 4164), 24.8%, 00:18 left
+Sampling lights at 25 FPS: frame 1213 in range (1, 4164), 29.1%, 00:17 left
+Sampling lights at 25 FPS: frame 1383 in range (1, 4164), 33.2%, 00:16 left
+Sampling lights at 25 FPS: frame 1553 in range (1, 4164), 37.3%, 00:15 left
+Sampling lights at 25 FPS: frame 1707 in range (1, 4164), 41.0%, 00:14 left
+Sampling lights at 25 FPS: frame 1864 in range (1, 4164), 44.8%, 00:13 left
+Sampling lights at 25 FPS: frame 2038 in range (1, 4164), 48.9%, 00:12 left
+Sampling lights at 25 FPS: frame 2217 in range (1, 4164), 53.2%, 00:11 left
+Sampling lights at 25 FPS: frame 2378 in range (1, 4164), 57.1%, 00:10 left
+Sampling lights at 25 FPS: frame 2546 in range (1, 4164), 61.1%, 00:09 left
+Sampling lights at 25 FPS: frame 2706 in range (1, 4164), 65.0%, 00:08 left
+Sampling lights at 25 FPS: frame 2893 in range (1, 4164), 69.5%, 00:07 left
+Sampling lights at 25 FPS: frame 3073 in range (1, 4164), 73.8%, 00:06 left
+Sampling lights at 25 FPS: frame 3254 in range (1, 4164), 78.1%, 00:05 left
+Sampling lights at 25 FPS: frame 3410 in range (1, 4164), 81.9%, 00:04 left
+Sampling lights at 25 FPS: frame 3596 in range (1, 4164), 86.4%, 00:03 left
+Sampling lights at 25 FPS: frame 3775 in range (1, 4164), 90.7%, 00:02 left
+Sampling lights at 25 FPS: frame 3960 in range (1, 4164), 95.1%, 00:01 left
+Sampling lights at 25 FPS: frame 4137 in range (1, 4164), 99.4%, 00:00 left
+Sampling lights at 25 FPS: frame 4164 in range (1, 4164), 100.0%, 00:00 left
+: done.
+Exporting show to Skybrush .skyc format (49 drones, local)...
+Exporting show to Skybrush .skyc format (49 drones, local): done.
+Info: Export successful: C:\FlybitComposer\flybit-composer\exports\cli-022503\server-49-test.skyc (189.6 KB)
+PROGRESS 100 Done
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit

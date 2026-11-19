@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Flybit Composer</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand"><span class="logo"></span><b>Flybit</b> Composer</div>
+  <input id="showName" class="show-name" placeholder="Show name" spellcheck="false">
+  <label class="field-inline">Drones
+    <select id="droneCount"></select>
+  </label>
+  <div class="spacer"></div>
+  <div id="summary" class="summary"></div>
+  <button id="btnOpen" class="btn ghost" title="Open a saved composer project">Open</button>
+  <button id="btnSave" class="btn ghost" title="Save this project as a file">Save</button>
+  <button id="btnExport" class="btn primary">Export show</button>
+  <input id="fileOpen" type="file" accept=".json" hidden>
+</header>
+
+<main class="workspace">
+  <aside class="panel library">
+    <div class="panel-head">
+      <h2>Shapes</h2>
+      <button id="btnImport" class="btn tiny" title="Add every formation of a Skybrush .blend to the library">Import .blend</button>
+    </div>
+    <input id="shapeSearch" class="search" placeholder="Search shapes" spellcheck="false">
+    <div id="shapeSources" class="chips"></div>
+    <div id="shapeGrid" class="shape-grid"></div>
+  </aside>
+
+  <section class="stage-wrap">
+    <div class="stage-head">
+      <div id="stageTitle" class="stage-title">Pick a shape to start</div>
+      <div class="stage-tools">
+        <button id="btnPlay" class="btn tiny">Pause</button>
+        <button id="btnView" class="btn tiny" title="Reset the camera to the audience view">Front view</button>
+        <button id="btnFlight" class="btn tiny" hidden>Flight preview</button>
+        <button id="btnOriginal" class="btn tiny" hidden title="Play the imported show exactly as it was made in Blender">▶ Original show</button>
+      </div>
+    </div>
+    <canvas id="stage"></canvas>
+    <div id="scrub" class="scrub" hidden>
+      <input id="scrubRange" type="range" min="0" max="1000" value="0">
+      <span id="scrubTime">0:00</span>
+      <button id="btnExitFlight" class="btn tiny">Back to scene</button>
+    </div>
+    <div class="stage-hint">Drag to orbit. Lights preview only: the exact Python effect that goes into the show. All drone movement is planned by Skybrush in Blender.</div>
+  </section>
+
+  <aside class="panel inspector">
+    <div class="tabs">
+      <button class="tab active" data-tab="scene">Selection</button>
+      <button class="tab" data-tab="show">Show settings</button>
+    </div>
+    <div id="tab-scene" class="tab-body"></div>
+    <div id="tab-show" class="tab-body" hidden></div>
+  </aside>
+</main>
+
+<footer class="timeline-wrap">
+  <div class="timeline-head">
+    <h2>Timeline</h2>
+    <button id="btnPlayAll" class="btn tiny primary" title="Play the whole timeline on the stage: takeoff, every scene and transition, landing">▶ Play whole show</button>
+    <span class="muted">Click a shape to add it. Drag blocks to reorder. Takeoff, transitions, return and landing are flown by Skybrush; click them to set their lights.</span>
+  </div>
+  <div id="timeline" class="timeline"></div>
+</footer>
+
+<div id="modal" class="modal" hidden>
+  <div class="modal-card" id="modalCard"></div>
+</div>
+<div id="toast" class="toast" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>

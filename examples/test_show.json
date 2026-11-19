@@ -1,0 +1,18 @@
+{
+ "name": "Composer Test Show",
+ "drone_count": 100,
+ "crossfade": 1.5,
+ "takeoff_look": {"effect": "twinkle", "params": {"density": 0.7}, "colors": ["#000000", "#fff1d6"]},
+ "transition_look": {"effect": "sparkle", "params": {"density": 0.25}, "colors": ["#1a0a00", "#ffb400"]},
+ "landing_look": {"effect": "breathe", "params": {}, "colors": ["#000000", "#fff1d6"]},
+ "scenes": [
+  {"shape_id": "100/ganpati-face", "hold": 8,
+   "layers": [{"effect": "gradient", "params": {"direction": "b2t"}, "colors": ["#ff2d00", "#ffb400", "#fff1d6"]}],
+   "reveal": {"effect": "reveal_wipe", "params": {"direction": "b2t"}, "duration": 2.5}},
+  {"shape_id": "100/diya", "hold": 8,
+   "layers": [{"effect": "flames", "params": {}, "colors": ["#3a1200", "#ff7a00", "#ffd24a"]}]},
+  {"shape_id": "100/om", "hold": 8,
+   "layers": [{"effect": "ripple", "params": {"rings": 2}, "colors": ["#2a0a6b", "#8a2be2", "#ffd700"]}],
+   "reveal": {"effect": "reveal_center_out", "params": {}, "duration": 2}}
+ ]
+}

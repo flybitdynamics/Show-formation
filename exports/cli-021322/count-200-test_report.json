@@ -1,0 +1,76 @@
+{
+ "ok": true,
+ "warnings": [
+  "Drones come within 1.66 m of each other at 59.8 s (limit 2.0 m)."
+ ],
+ "files": {
+  "blend": "count-200-test.blend",
+  "fx": "count-200-test_fx.py",
+  "preview": "count-200-test_preview.json",
+  "skyc": "count-200-test.skyc"
+ },
+ "light_effects": 6,
+ "check": {
+  "duration": 254.1,
+  "frames": 6100,
+  "min_distance": 1.66,
+  "min_distance_time": 59.8,
+  "max_velocity_xy": 0.9,
+  "max_velocity_up": 1.99,
+  "max_velocity_down": 2.04,
+  "max_altitude": 126.9,
+  "limits": {
+   "min_distance": 2.0,
+   "max_velocity_xy": 10.0,
+   "max_velocity_z": 2.0,
+   "max_acceleration": 4.0,
+   "max_altitude": 150.0,
+   "min_nav_altitude": 2.5
+  }
+ },
+ "timeline": [
+  {
+   "name": "Takeoff grid",
+   "frame_start": 1,
+   "frame_end": 1,
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "name": "Takeoff",
+   "frame_start": 482,
+   "frame_end": 482,
+   "start": 20.04,
+   "end": 20.04
+  },
+  {
+   "name": "01 A",
+   "frame_start": 2881,
+   "frame_end": 3024,
+   "start": 120.0,
+   "end": 125.96
+  },
+  {
+   "name": "02 B",
+   "frame_start": 4297,
+   "frame_end": 4440,
+   "start": 179.0,
+   "end": 184.96
+  },
+  {
+   "name": "Return to home",
+   "frame_start": 5500,
+   "frame_end": 5500,
+   "start": 229.12,
+   "end": 229.12
+  },
+  {
+   "name": "Landing",
+   "frame_start": 6100,
+   "frame_end": 6100,
+   "start": 254.12,
+   "end": 254.12
+  }
+ ],
+ "seconds": 176.9
+}

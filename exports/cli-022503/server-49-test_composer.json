@@ -1,0 +1,72 @@
+{
+ "name": "Server 49 Test",
+ "drone_count": 49,
+ "takeoff_layers": [
+  {
+   "effect": "twinkle",
+   "params": {},
+   "colors": [
+    "#000000",
+    "#fff1d6"
+   ]
+  }
+ ],
+ "landing_layers": [
+  {
+   "effect": "breathe",
+   "params": {},
+   "colors": [
+    "#000000",
+    "#fff1d6"
+   ]
+  }
+ ],
+ "scenes": [
+  {
+   "shape_id": "basic/49/circle",
+   "name": "A",
+   "hold": 6,
+   "layers": [
+    {
+     "effect": "gradient",
+     "params": {},
+     "colors": [
+      "#ff6a00",
+      "#ffffff"
+     ]
+    }
+   ],
+   "transition": {
+    "effect": "sparkle",
+    "params": {},
+    "colors": [
+     "#000000",
+     "#ffb400"
+    ]
+   }
+  },
+  {
+   "shape_id": "basic/49/wall",
+   "name": "B",
+   "hold": 6,
+   "layers": [
+    {
+     "effect": "wave",
+     "params": {},
+     "colors": [
+      "#001a40",
+      "#00d0ff"
+     ]
+    }
+   ],
+   "transition": {
+    "effect": "wave",
+    "params": {},
+    "colors": [
+     "#001a40",
+     "#00d0ff"
+    ]
+   }
+  }
+ ]
+}

@@ -1,0 +1,114 @@
+{
+ "name": "UI Test",
+ "drone_count": 100,
+ "crossfade": 1.5,
+ "takeoff": {
+  "altitude": 6
+ },
+ "limits": {
+  "min_distance": 2,
+  "max_velocity_xy": 10,
+  "max_velocity_z": 2,
+  "max_acceleration": 4,
+  "max_altitude": 150,
+  "min_nav_altitude": 2.5
+ },
+ "takeoff_look": {
+  "effect": "twinkle",
+  "params": {
+   "speed": 0.8,
+   "density": 0.6,
+   "sharpness": 3,
+   "floor": 0
+  },
+  "colors": [
+   "#000000",
+   "#fff1d6"
+  ],
+  "fade_in": 1.5,
+  "fade_out": 1.5
+ },
+ "transition_look": {
+  "effect": "sparkle",
+  "params": {
+   "speed": 1,
+   "density": 0.2,
+   "floor": 0
+  },
+  "colors": [
+   "#1a0a00",
+   "#ffb400"
+  ],
+  "fade_in": 1.5,
+  "fade_out": 1.5
+ },
+ "landing_look": {
+  "effect": "breathe",
+  "params": {
+   "speed": 0.3,
+   "floor": 0.2
+  },
+  "colors": [
+   "#000000",
+   "#fff1d6"
+  ],
+  "fade_in": 1.5,
+  "fade_out": 1.5
+ },
+ "scenes": [
+  {
+   "uid": "zn043uz",
+   "shape_id": "100/ganpati-face",
+   "name": "Ganpati Face",
+   "hold": 6,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "effect": "gradient",
+     "params": {
+      "direction": "b2t"
+     },
+     "colors": [
+      "#3a1200",
+      "#ff7a00",
+      "#ffd24a"
+     ],
+     "fade_in": 1.5,
+     "fade_out": 1.5
+    }
+   ],
+   "reveal": null
+  },
+  {
+   "uid": "bcb0h73",
+   "shape_id": "100/diya",
+   "name": "Diya",
+   "hold": 6,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "effect": "flames",
+     "params": {
+      "speed": 0.5,
+      "scale": 0.3,
+      "sharpness": 2.2
+     },
+     "colors": [
+      "#ff6a00",
+      "#ffffff"
+     ],
+     "fade_in": 1.5,
+     "fade_out": 1.5
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_wipe",
+    "params": {
+     "direction": "l2r",
+     "softness": 0.12
+    },
+    "duration": 2.5
+   }
+  }
+ ]
+}

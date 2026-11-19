@@ -1,0 +1,26 @@
+{
+ "source": "Shapes Library",
+ "fps": 24.0,
+ "drone_count": 0,
+ "grid_rows": 0,
+ "grid_columns": 0,
+ "grid_spacing": 3.0,
+ "takeoff_altitude": 6.0,
+ "takeoff_layers": [],
+ "max_velocity_xy": 8.0,
+ "max_velocity_z": 3.0,
+ "max_acceleration": 4.0,
+ "min_distance": 2.0,
+ "max_altitude": 150.0,
+ "min_nav_altitude": 2.5,
+ "drone_radius": 0.5,
+ "light_effects": 0,
+ "shapes": [
+  "200/boy-girl-holding-hands",
+  "200/bride-and-groom",
+  "200/man-proposing-2",
+  "200/holding-fingers",
+  "200/man-proposing",
+  "200/rose"
+ ]
+}

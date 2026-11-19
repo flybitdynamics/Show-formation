@@ -1,0 +1,94 @@
+{
+ "ok": true,
+ "warnings": [
+  "Skybrush Studio Server did not plan this show; Skybrush planned it inside Blender instead. Server 64-drone limit reached; automatically enabling local transition planner.",
+  "Drones come within 1.53 m of each other at 132.0 s (limit 2.0 m).",
+  "Vertical speed peaks at 2.0 m/s up / 2.2 m/s down (limit 2.0)."
+ ],
+ "files": {
+  "blend": "composer-test-show.blend",
+  "fx": "composer-test-show_fx.py",
+  "preview": "composer-test-show_preview.json",
+  "skyc": "composer-test-show.skyc"
+ },
+ "planner": {
+  "requested": "server",
+  "used": "local (server fallback)",
+  "online_access": true,
+  "notes": [
+   "Server 64-drone limit reached; automatically enabling local transition planner.",
+   "Server takeoff planner unavailable or failed (Forbidden: Request contains too many points; maximum allowed is 64); falling back to local decomposition."
+  ]
+ },
+ "light_effects": 10,
+ "check": {
+  "duration": 256.3,
+  "frames": 6152,
+  "min_distance": 1.53,
+  "min_distance_time": 132.0,
+  "max_velocity_xy": 1.78,
+  "max_velocity_up": 1.99,
+  "max_velocity_down": 2.21,
+  "max_altitude": 107.0,
+  "limits": {
+   "min_distance": 2.0,
+   "max_velocity_xy": 10.0,
+   "max_velocity_z": 2.0,
+   "max_acceleration": 4.0,
+   "max_altitude": 150.0,
+   "min_nav_altitude": 2.5
+  }
+ },
+ "timeline": [
+  {
+   "name": "Takeoff grid",
+   "frame_start": 1,
+   "frame_end": 1,
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "name": "Takeoff",
+   "frame_start": 482,
+   "frame_end": 482,
+   "start": 20.04,
+   "end": 20.04
+  },
+  {
+   "name": "01 Ganpati Face",
+   "frame_start": 2353,
+   "frame_end": 2544,
+   "start": 98.0,
+   "end": 105.96
+  },
+  {
+   "name": "02 Diya",
+   "frame_start": 3169,
+   "frame_end": 3360,
+   "start": 132.0,
+   "end": 139.96
+  },
+  {
+   "name": "03 OM",
+   "frame_start": 3745,
+   "frame_end": 3936,
+   "start": 156.0,
+   "end": 163.96
+  },
+  {
+   "name": "Return to home",
+   "frame_start": 5552,
+   "frame_end": 5552,
+   "start": 231.29,
+   "end": 231.29
+  },
+  {
+   "name": "Landing",
+   "frame_start": 6152,
+   "frame_end": 6152,
+   "start": 256.29,
+   "end": 256.29
+  }
+ ],
+ "seconds": 119.7
+}

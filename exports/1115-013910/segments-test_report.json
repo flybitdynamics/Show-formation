@@ -1,0 +1,76 @@
+{
+ "ok": true,
+ "warnings": [
+  "Drones come within 1.22 m of each other at 114.5 s (limit 2.0 m)."
+ ],
+ "files": {
+  "blend": "segments-test.blend",
+  "fx": "segments-test_fx.py",
+  "preview": "segments-test_preview.json",
+  "skyc": "segments-test.skyc"
+ },
+ "light_effects": 7,
+ "check": {
+  "duration": 235.5,
+  "frames": 5654,
+  "min_distance": 1.22,
+  "min_distance_time": 114.5,
+  "max_velocity_xy": 1.84,
+  "max_velocity_up": 2.0,
+  "max_velocity_down": 1.95,
+  "max_altitude": 107.0,
+  "limits": {
+   "min_distance": 2,
+   "max_velocity_xy": 10,
+   "max_velocity_z": 2,
+   "max_acceleration": 4,
+   "max_altitude": 150,
+   "min_nav_altitude": 2.5
+  }
+ },
+ "timeline": [
+  {
+   "name": "Takeoff grid",
+   "frame_start": 1,
+   "frame_end": 1,
+   "start": 0.0,
+   "end": 0.0
+  },
+  {
+   "name": "Takeoff",
+   "frame_start": 482,
+   "frame_end": 482,
+   "start": 20.04,
+   "end": 20.04
+  },
+  {
+   "name": "01 Amba",
+   "frame_start": 2377,
+   "frame_end": 2520,
+   "start": 99.0,
+   "end": 104.96
+  },
+  {
+   "name": "02 Diya",
+   "frame_start": 3001,
+   "frame_end": 3144,
+   "start": 125.0,
+   "end": 130.96
+  },
+  {
+   "name": "Return to home",
+   "frame_start": 5054,
+   "frame_end": 5054,
+   "start": 210.54,
+   "end": 210.54
+  },
+  {
+   "name": "Landing",
+   "frame_start": 5654,
+   "frame_end": 5654,
+   "start": 235.54,
+   "end": 235.54
+  }
+ ],
+ "seconds": 150.0
+}

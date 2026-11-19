@@ -1,0 +1,185 @@
+{
+ "name": "Shapes Library",
+ "drone_count": 200,
+ "crossfade": 1.5,
+ "scenes": [
+  {
+   "uid": "ak1hrtt",
+   "shape_id": "200/boy-girl-holding-hands",
+   "name": "Boy&Girl Holding Hands",
+   "hold": 12,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "effect": "gradient_flow",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.25,
+      "repeats": 1
+     },
+     "colors": [
+      "#3a1200",
+      "#ff7a00",
+      "#ffd24a"
+     ],
+     "fade_in": 1.5,
+     "fade_out": 1.5,
+     "enabled": true,
+     "blend": "NORMAL"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "effect": "sparkle",
+    "params": {},
+    "colors": [
+     "#1a0a00",
+     "#ffb400"
+    ],
+    "fade_in": 1.5,
+    "fade_out": 1.5,
+    "enabled": true,
+    "blend": "NORMAL"
+   }
+  },
+  {
+   "uid": "2kdool2",
+   "shape_id": "200/man-proposing-2",
+   "name": "Man Proposing 2",
+   "hold": 12,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "effect": "breathe",
+     "params": {
+      "speed": 0.3,
+      "floor": 0.2
+     },
+     "colors": [
+      "#ff6a00",
+      "#ffffff"
+     ],
+     "fade_in": 1.5,
+     "fade_out": 1.5,
+     "enabled": true,
+     "blend": "NORMAL"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "effect": "sparkle",
+    "params": {},
+    "colors": [
+     "#1a0a00",
+     "#ffb400"
+    ],
+    "fade_in": 1.5,
+    "fade_out": 1.5,
+    "enabled": true,
+    "blend": "NORMAL"
+   }
+  },
+  {
+   "uid": "mkqjtyl",
+   "shape_id": "200/holding-fingers",
+   "name": "Holding Fingers",
+   "hold": 12,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "effect": "ping_pong",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "width": 0.2,
+      "sharpness": 1,
+      "floor": 0.04
+     },
+     "colors": [
+      "#ff9933",
+      "#ffffff",
+      "#138808"
+     ],
+     "fade_in": 1.5,
+     "fade_out": 1.5,
+     "enabled": true,
+     "blend": "NORMAL"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "effect": "sparkle",
+    "params": {},
+    "colors": [
+     "#1a0a00",
+     "#ffb400"
+    ],
+    "fade_in": 1.5,
+    "fade_out": 1.5,
+    "enabled": true,
+    "blend": "NORMAL"
+   }
+  }
+ ],
+ "takeoff_layers": [
+  {
+   "effect": "twinkle",
+   "params": {
+    "speed": 0.8,
+    "density": 0.6,
+    "sharpness": 3,
+    "floor": 0
+   },
+   "colors": [
+    "#000000",
+    "#fff1d6"
+   ],
+   "fade_in": 1.5,
+   "fade_out": 1.5,
+   "enabled": true,
+   "blend": "NORMAL"
+  }
+ ],
+ "landing_layers": [
+  {
+   "effect": "breathe",
+   "params": {
+    "speed": 0.3,
+    "floor": 0.2
+   },
+   "colors": [
+    "#000000",
+    "#fff1d6"
+   ],
+   "fade_in": 1.5,
+   "fade_out": 1.5,
+   "enabled": true,
+   "blend": "NORMAL"
+  }
+ ],
+ "transition_look": {
+  "effect": "sparkle",
+  "params": {},
+  "colors": [
+   "#1a0a00",
+   "#ffb400"
+  ],
+  "fade_in": 1.5,
+  "fade_out": 1.5,
+  "enabled": true,
+  "blend": "NORMAL"
+ },
+ "imported_from": "shapes-library.blend",
+ "takeoff": {
+  "altitude": 6
+ },
+ "limits": {
+  "min_distance": 2,
+  "max_velocity_xy": 10,
+  "max_velocity_z": 2,
+  "max_acceleration": 4,
+  "max_altitude": 150,
+  "min_nav_altitude": 2.5
+ },
+ "source_preview": null
+}

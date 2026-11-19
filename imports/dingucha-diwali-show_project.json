@@ -1,0 +1,2528 @@
+{
+ "name": "Dingucha Diwali Show",
+ "drone_count": 100,
+ "crossfade": 1.5,
+ "scenes": [
+  {
+   "uid": "imp000",
+   "shape_id": "100/ganpati-face",
+   "name": "Ganpati Face",
+   "hold": 18.0,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Ganesh",
+     "effect": "gradient_flow",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "repeats": 1.0
+     },
+     "colors": [
+      "#ffe900",
+      "#ffd100",
+      "#ffb500",
+      "#ff9000",
+      "#ff5a00"
+     ]
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Ganesh Reveal"
+   },
+   "transition": {
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffb400"
+    ],
+    "fade_in": 1.5,
+    "fade_out": 1.5,
+    "enabled": false,
+    "blend": "NORMAL"
+   },
+   "source_time": 96.0
+  },
+  {
+   "uid": "imp001",
+   "shape_id": "100/hands",
+   "name": "Hands",
+   "hold": 15.2,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Hands",
+     "effect": "gradient",
+     "params": {
+      "direction": "f2b"
+     },
+     "colors": [
+      "#ffdc00",
+      "#ffc500",
+      "#ffa900",
+      "#ff8700",
+      "#ff5200"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Hands 2",
+     "effect": "gradient",
+     "params": {
+      "direction": "b2t"
+     },
+     "colors": [
+      "#009dff",
+      "#00a5ff",
+      "#00adff",
+      "#00b5ff",
+      "#00bcff"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      27,
+      42,
+      43,
+      44,
+      45
+     ],
+     "mask_label": "Cube.002"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Hands 3",
+     "effect": "gradient",
+     "params": {
+      "direction": "b2t"
+     },
+     "colors": [
+      "#009dff",
+      "#00a5ff",
+      "#00adff",
+      "#00b5ff",
+      "#00bcff"
+     ],
+     "mask": [
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      76,
+      92,
+      93,
+      94,
+      95,
+      96
+     ],
+     "mask_label": "Cube.001"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 1",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffe900"
+    ]
+   },
+   "source_time": 128.92
+  },
+  {
+   "uid": "imp002",
+   "shape_id": "100/mata-face",
+   "name": "Mata Face",
+   "hold": 20.0,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Mata",
+     "effect": "gradient",
+     "params": {
+      "direction": "b2t"
+     },
+     "colors": [
+      "#f31a59",
+      "#d62f9a",
+      "#b33dc4",
+      "#8247e4",
+      "#0051ff"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96
+     ],
+     "mask_label": "Cube.004"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Mata 2",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#000000",
+      "#828282",
+      "#cdcdcd",
+      "#ffffff"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      13,
+      14,
+      15,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      69,
+      80,
+      81,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Torus"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Mata Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 2",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#009eff"
+    ]
+   },
+   "source_time": 159.92
+  },
+  {
+   "uid": "imp003",
+   "shape_id": "100/amba",
+   "name": "Amba",
+   "hold": 16.3,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Amba",
+     "effect": "gradient",
+     "params": {
+      "direction": "r2l"
+     },
+     "colors": [
+      "#ff5700",
+      "#ff8108",
+      "#ff9e0f",
+      "#ffb515",
+      "#ffbc16"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      77,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.010"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.25,
+     "fade_out": 1.67,
+     "source": "Amba 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0001"
+     ],
+     "mask": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86
+     ],
+     "mask_label": "Cube.019"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Amba Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 3",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#f11c60"
+    ]
+   },
+   "source_time": 202.0
+  },
+  {
+   "uid": "imp004",
+   "shape_id": "100/maa",
+   "name": "Maa",
+   "hold": 15.4,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 0.0,
+     "source": "Maa",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff8f00"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97
+     ],
+     "mask_label": "Cube.021"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 0.0,
+     "source": "Maa 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0011"
+     ],
+     "mask": [
+      2,
+      3,
+      4,
+      15,
+      16,
+      17,
+      26,
+      27,
+      28,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.022"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Maa Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 4",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ff5c01"
+    ]
+   },
+   "source_time": 237.75
+  },
+  {
+   "uid": "imp005",
+   "shape_id": "100/mandala",
+   "name": "Mandala",
+   "hold": 20.0,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Maa Face",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0000"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      42,
+      43,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      70,
+      71,
+      72
+     ],
+     "mask_label": "Cube.025"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Maa Face 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ffdf00"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+     ],
+     "mask_label": "Cube.026"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Maa Face 3",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#000000",
+      "#003b89",
+      "#0053bc",
+      "#0065e1",
+      "#0074ff"
+     ],
+     "mask": [
+      0,
+      1,
+      11,
+      12,
+      13,
+      14,
+      20,
+      24,
+      28,
+      39,
+      40,
+      41,
+      50,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75
+     ],
+     "mask_label": "Cube.027"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Maa Face 4",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff8600"
+     ],
+     "mask": [
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67
+     ],
+     "mask_label": "Cube.024"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Maa Face 5",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ffdf00"
+     ],
+     "mask": [
+      85,
+      86,
+      87,
+      88
+     ],
+     "mask_label": "Cube.028"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Maa Face 6",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0000"
+     ],
+     "mask": [
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.029"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Maa Face 7",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff8600"
+     ],
+     "mask": [
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      97
+     ],
+     "mask_label": "Cube.030"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_corners_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Maa Face Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 5",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ff8f00"
+    ]
+   },
+   "source_time": 264.83
+  },
+  {
+   "uid": "imp006",
+   "shape_id": "100/diya",
+   "name": "Diya",
+   "hold": 15.9,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Diya",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ffe800"
+     ],
+     "mask": [
+      5,
+      6,
+      7,
+      13,
+      16,
+      17,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+     ],
+     "mask_label": "Cube.009"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Diya 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#007aff"
+     ],
+     "mask": [
+      42,
+      43,
+      48,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      63,
+      64
+     ],
+     "mask_label": "Cube.007"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Diya 3",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#00ff05"
+     ],
+     "mask": [
+      6,
+      7,
+      13,
+      17,
+      20,
+      65,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+     ],
+     "mask_label": "Cube.008"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Diya 4",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0700"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      62
+     ],
+     "mask_label": "Cube.014"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Diya 5",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff9d00"
+     ],
+     "mask": [
+      7,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+     ],
+     "mask_label": "Cube.015"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Diya 6",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#ffffff",
+      "#000000"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      8,
+      9,
+      10,
+      14,
+      62,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.018"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 6",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#f11c60"
+    ]
+   },
+   "source_time": 307.42
+  },
+  {
+   "uid": "imp007",
+   "shape_id": "100/garba-girl",
+   "name": "Garba Girl",
+   "hold": 20.0,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Garba Girl",
+     "effect": "gradient",
+     "params": {
+      "direction": "f2b"
+     },
+     "colors": [
+      "#005fff",
+      "#8954e1",
+      "#bc47bc",
+      "#e13689",
+      "#ff1d00"
+     ]
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 7",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffe800"
+    ]
+   },
+   "source_time": 345.0
+  },
+  {
+   "uid": "imp008",
+   "shape_id": "100/shiv",
+   "name": "Shiv",
+   "hold": 16.2,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Shiv",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ffbd00"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Shiv 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#0092ff"
+     ],
+     "mask": [
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55
+     ],
+     "mask_label": "Cube.032"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Shiv 3",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff1a00"
+     ],
+     "mask": [
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89
+     ],
+     "mask_label": "Cube.020"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Shiv 4",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ffffff"
+     ],
+     "mask": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      32
+     ],
+     "mask_label": "Cube.031"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Shiv Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 8",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#fe1e1a"
+    ]
+   },
+   "source_time": 374.5
+  },
+  {
+   "uid": "imp009",
+   "shape_id": "100/hanuman",
+   "name": "Hanuman",
+   "hold": 20.0,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Hanuman",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff8e00"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Hanuman 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#0078ff"
+     ],
+     "mask": [
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      75,
+      76,
+      77,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      95,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.017"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Hanuman 3",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0015"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      11
+     ],
+     "mask_label": "Cube.011"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 9",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffbd00"
+    ]
+   },
+   "source_time": 408.5
+  },
+  {
+   "uid": "imp010",
+   "shape_id": "100/om",
+   "name": "OM",
+   "hold": 13.8,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Om",
+     "effect": "gradient",
+     "params": {
+      "direction": "r2l"
+     },
+     "colors": [
+      "#ffd000",
+      "#ffb707",
+      "#ff980e",
+      "#ff6f13",
+      "#ff0017"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Om 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff000f"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      98,
+      99
+     ],
+     "mask_label": "Cube.013"
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 10",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#0078ff"
+    ]
+   },
+   "source_time": 442.46
+  },
+  {
+   "uid": "imp011",
+   "shape_id": "100/ram-face",
+   "name": "Ram Face",
+   "hold": 16.2,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Ram Face",
+     "effect": "gradient",
+     "params": {
+      "direction": "b2t"
+     },
+     "colors": [
+      "#ff9000",
+      "#ff8c1f",
+      "#ff7d47",
+      "#ff6a5e",
+      "#ff5270"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Ram Face 2",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#ff0600",
+      "#e10400",
+      "#bc0300",
+      "#890100",
+      "#000000"
+     ],
+     "mask": [
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93
+     ],
+     "mask_label": "Cube.033"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Ram Face Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 11",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffd000"
+    ]
+   },
+   "source_time": 464.54
+  },
+  {
+   "uid": "imp012",
+   "shape_id": "100/ram",
+   "name": "Ram",
+   "hold": 16.2,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Ram Text",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0700"
+     ],
+     "mask": [
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      96
+     ],
+     "mask_label": "Cube.023"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Ram Text 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff9000"
+     ],
+     "mask": [
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58
+     ],
+     "mask_label": "Cube.006"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Ram Text 3",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#ff3d02",
+      "#fa7302",
+      "#f59401",
+      "#efad01",
+      "#eac300"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73,
+      74,
+      75,
+      76,
+      77,
+      78,
+      79,
+      80,
+      81,
+      82,
+      83,
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.005"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Ram Text reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 12",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ff5270"
+    ]
+   },
+   "source_time": 493.71
+  },
+  {
+   "uid": "imp013",
+   "shape_id": "100/dingucha",
+   "name": "Dingucha",
+   "hold": 17.2,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "I love Dingus",
+     "effect": "gradient",
+     "params": {
+      "direction": "r2l"
+     },
+     "colors": [
+      "#ff6800",
+      "#fd6164",
+      "#f9569b",
+      "#f548c0",
+      "#f23bd7"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "I love Dingus 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff0200"
+     ],
+     "mask": [
+      84,
+      85,
+      86,
+      87,
+      88,
+      89,
+      90,
+      91,
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.035"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "I love Dingus Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 13",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffd400"
+    ]
+   },
+   "source_time": 533.71
+  },
+  {
+   "uid": "imp014",
+   "shape_id": "100/brahmani",
+   "name": "Brahmani",
+   "hold": 15.6,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Brahmani",
+     "effect": "gradient_flow",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "repeats": 1.0
+     },
+     "colors": [
+      "#ff8700",
+      "#ff7603",
+      "#ff6207",
+      "#ff460a",
+      "#ff000e"
+     ]
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 14",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ff7100"
+    ]
+   },
+   "source_time": 562.5
+  },
+  {
+   "uid": "imp015",
+   "shape_id": "100/temple",
+   "name": "Temple",
+   "hold": 16.7,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Temple",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#ffd400",
+      "#ffe089",
+      "#ffebbc",
+      "#fff5e1",
+      "#ffffff"
+     ]
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Temple 2",
+     "effect": "solid",
+     "params": {
+      "level": 1.0
+     },
+     "colors": [
+      "#ff6400"
+     ],
+     "mask": [
+      92,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+     ],
+     "mask_label": "Cube.038"
+    }
+   ],
+   "reveal": {
+    "effect": "reveal_edges_in",
+    "params": {
+     "softness": 0.25
+    },
+    "duration": 2.5,
+    "enabled": true,
+    "source": "Temple Reveal"
+   },
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 15",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ff7100"
+    ]
+   },
+   "source_time": 601.33
+  },
+  {
+   "uid": "imp016",
+   "shape_id": "100/flybit",
+   "name": "Flybit",
+   "hold": 15.9,
+   "extra_transition": 0,
+   "layers": [
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 1.67,
+     "fade_out": 1.67,
+     "source": "Flybit",
+     "effect": "gradient",
+     "params": {
+      "direction": "r2l"
+     },
+     "colors": [
+      "#00c1ff",
+      "#19d3e1",
+      "#26e3bc",
+      "#2ff189",
+      "#37ff00"
+     ],
+     "mask": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98,
+      99
+     ],
+     "mask_label": "Cube.039"
+    },
+    {
+     "enabled": true,
+     "blend": "NORMAL",
+     "fade_in": 0.0,
+     "fade_out": 1.67,
+     "source": "Flybit 2",
+     "effect": "wave",
+     "params": {
+      "direction": "l2r",
+      "speed": 0.5,
+      "waves": 1.5,
+      "sharpness": 1.0
+     },
+     "colors": [
+      "#000000",
+      "#898989",
+      "#bcbcbc",
+      "#e1e1e1",
+      "#ffffff"
+     ]
+    }
+   ],
+   "reveal": null,
+   "transition": {
+    "enabled": true,
+    "blend": "NORMAL",
+    "fade_in": 1.67,
+    "fade_out": 1.67,
+    "source": "Transition 16",
+    "effect": "sparkle",
+    "params": {
+     "speed": 1.0,
+     "density": 0.2,
+     "floor": 0.0
+    },
+    "colors": [
+     "#000000",
+     "#ffd400"
+    ]
+   },
+   "source_time": 636.17
+  }
+ ],
+ "takeoff_layers": [
+  {
+   "enabled": true,
+   "blend": "NORMAL",
+   "fade_in": 0.0,
+   "fade_out": 1.67,
+   "source": "Start",
+   "effect": "sparkle",
+   "params": {
+    "speed": 1.0,
+    "density": 0.2,
+    "floor": 0.0
+   },
+   "colors": [
+    "#000000",
+    "#0095ff"
+   ]
+  }
+ ],
+ "landing_layers": [
+  {
+   "enabled": true,
+   "blend": "NORMAL",
+   "fade_in": 1.67,
+   "fade_out": 1.67,
+   "source": "Transition 17",
+   "effect": "sparkle",
+   "params": {
+    "speed": 1.0,
+    "density": 0.2,
+    "floor": 0.0
+   },
+   "colors": [
+    "#000000",
+    "#0dc2ea"
+   ]
+  }
+ ],
+ "transition_look": {
+  "enabled": true,
+  "blend": "NORMAL",
+  "fade_in": 1.67,
+  "fade_out": 1.67,
+  "source": "Transition 1",
+  "effect": "sparkle",
+  "params": {
+   "speed": 1.0,
+   "density": 0.2,
+   "floor": 0.0
+  },
+  "colors": [
+   "#000000",
+   "#ffe900"
+  ]
+ },
+ "imported_from": "dingucha-diwali-show.blend",
+ "takeoff": {
+  "altitude": 6.0
+ },
+ "limits": {
+  "min_distance": 2.0,
+  "max_velocity_xy": 8.0,
+  "max_velocity_z": 3.0,
+  "max_acceleration": 4.0,
+  "max_altitude": 150.0,
+  "min_nav_altitude": 2.5
+ },
+ "source_preview": "dingucha-diwali-show_preview.json"
+}

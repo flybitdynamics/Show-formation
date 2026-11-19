@@ -1,0 +1,263 @@
+Error in bpy.app.handlers.load_post[13]:
+Traceback (most recent call last):
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\pyro_effects.py", line 84, in run_tasks_post_load
+    ensure_overlays_enabled()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\pyro_effects.py", line 79, in ensure_overlays_enabled
+    pyro_control.ensure_overlays_enabled_if_needed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\model\pyro_control.py", line 145, in ensure_overlays_enabled_if_needed
+    get_overlay().enabled = self.visualization in ["MARKERS", "INFO"]
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 73, in enabled
+    self.prepare()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 122, in prepare
+    self._shader = gpu.shader.from_builtin(self.shader_type)
+                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+SystemError: GPU functions for drawing requires the gpu module to be initialized. See gpu.init.
+Error in bpy.app.handlers.load_post[14]:
+Traceback (most recent call last):
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\safety_check.py", line 426, in run_tasks_post_load
+    ensure_overlays_enabled()
+    ~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\tasks\safety_check.py", line 405, in ensure_overlays_enabled
+    safety_check.ensure_overlays_enabled_if_needed()
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\model\safety_check.py", line 551, in ensure_overlays_enabled_if_needed
+    get_overlay().enabled = (
+    ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 73, in enabled
+    self.prepare()
+    ~~~~~~~~~~~~^^
+  File "C:\Users\Stark Solutions\AppData\Roaming\Blender Foundation\Blender\5.2\scripts\addons\vendor\skybrush\sbstudio\plugin\overlays\base.py", line 122, in prepare
+    self._shader = gpu.shader.from_builtin(self.shader_type)
+                   ~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
+SystemError: GPU functions for drawing requires the gpu module to be initialized. See gpu.init.
+PROGRESS 2 Preparing a new Blender scene
+Info: Saved as "new-drone-show.blend"
+PROGRESS 6 Creating takeoff grid for 100 drones
+PROGRESS 10 Planning takeoff
+PROGRESS 12 Adding formation 1/4: Amba
+PROGRESS 16 Adding formation 2/4: Diya
+PROGRESS 21 Adding formation 3/4: Garba Girl
+PROGRESS 25 Adding formation 4/4: Dingucha
+PROGRESS 32 Calculating transitions (collision-free matching)
+Info: Recalculated transitions without changing frame counts
+PROGRESS 40 Planning return to home
+Info: Recalculated transitions without changing frame counts
+PROGRESS 46 Planning landing
+Info: Recalculated transitions without changing frame counts
+PROGRESS 50 Building light effects
+PROGRESS 58 Saving Blender file
+Info: Saved as "new-drone-show.blend"
+PROGRESS 60 Checking the flight (distance, speed, altitude)
+PROGRESS 60 Checking the flight: 0%
+PROGRESS 60 Checking the flight: 3%
+PROGRESS 61 Checking the flight: 6%
+PROGRESS 62 Checking the flight: 10%
+PROGRESS 62 Checking the flight: 13%
+PROGRESS 63 Checking the flight: 17%
+PROGRESS 64 Checking the flight: 20%
+PROGRESS 64 Checking the flight: 24%
+PROGRESS 65 Checking the flight: 27%
+PROGRESS 66 Checking the flight: 30%
+PROGRESS 66 Checking the flight: 34%
+PROGRESS 67 Checking the flight: 37%
+PROGRESS 68 Checking the flight: 41%
+PROGRESS 68 Checking the flight: 44%
+PROGRESS 69 Checking the flight: 48%
+PROGRESS 70 Checking the flight: 51%
+PROGRESS 71 Checking the flight: 55%
+PROGRESS 71 Checking the flight: 58%
+PROGRESS 72 Checking the flight: 61%
+PROGRESS 73 Checking the flight: 65%
+PROGRESS 73 Checking the flight: 68%
+PROGRESS 74 Checking the flight: 72%
+PROGRESS 75 Checking the flight: 75%
+PROGRESS 75 Checking the flight: 79%
+PROGRESS 76 Checking the flight: 82%
+PROGRESS 77 Checking the flight: 86%
+PROGRESS 77 Checking the flight: 89%
+PROGRESS 78 Checking the flight: 92%
+PROGRESS 79 Checking the flight: 96%
+PROGRESS 79 Checking the flight: 99%
+PROGRESS 82 Exporting .skyc show file
+Sampling trajectories at 4 FPS: frame 1 in range (1, 6971), 0.1%, 00:11 left
+Sampling trajectories at 4 FPS: frame 871 in range (1, 6971), 12.6%, 00:07 left
+Sampling trajectories at 4 FPS: frame 1633 in range (1, 6971), 23.5%, 00:06 left
+Sampling trajectories at 4 FPS: frame 2539 in range (1, 6971), 36.5%, 00:05 left
+Sampling trajectories at 4 FPS: frame 3433 in range (1, 6971), 49.3%, 00:04 left
+Sampling trajectories at 4 FPS: frame 4309 in range (1, 6971), 61.8%, 00:03 left
+Sampling trajectories at 4 FPS: frame 5191 in range (1, 6971), 74.5%, 00:02 left
+Sampling trajectories at 4 FPS: frame 6073 in range (1, 6971), 87.1%, 00:01 left
+Sampling trajectories at 4 FPS: frame 6949 in range (1, 6971), 99.7%, 00:00 left
+Sampling trajectories at 4 FPS: frame 6971 in range (1, 6971), 100.0%, 00:00 left
+: done.
+Sampling lights at 25 FPS: frame 1 in range (1, 6971), 0.0%, 01:58 left
+Sampling lights at 25 FPS: frame 54 in range (1, 6971), 0.8%, 02:11 left
+Sampling lights at 25 FPS: frame 107 in range (1, 6971), 1.5%, 02:10 left
+Sampling lights at 25 FPS: frame 158 in range (1, 6971), 2.3%, 02:10 left
+Sampling lights at 25 FPS: frame 211 in range (1, 6971), 3.0%, 02:09 left
+Sampling lights at 25 FPS: frame 257 in range (1, 6971), 3.7%, 02:11 left
+Sampling lights at 25 FPS: frame 310 in range (1, 6971), 4.4%, 02:10 left
+Sampling lights at 25 FPS: frame 362 in range (1, 6971), 5.2%, 02:08 left
+Sampling lights at 25 FPS: frame 414 in range (1, 6971), 5.9%, 02:07 left
+Sampling lights at 25 FPS: frame 466 in range (1, 6971), 6.7%, 02:06 left
+Sampling lights at 25 FPS: frame 519 in range (1, 6971), 7.4%, 02:05 left
+Sampling lights at 25 FPS: frame 571 in range (1, 6971), 8.2%, 02:04 left
+Sampling lights at 25 FPS: frame 616 in range (1, 6971), 8.8%, 02:04 left
+Sampling lights at 25 FPS: frame 668 in range (1, 6971), 9.6%, 02:03 left
+Sampling lights at 25 FPS: frame 720 in range (1, 6971), 10.3%, 02:02 left
+Sampling lights at 25 FPS: frame 772 in range (1, 6971), 11.1%, 02:01 left
+Sampling lights at 25 FPS: frame 824 in range (1, 6971), 11.8%, 02:00 left
+Sampling lights at 25 FPS: frame 878 in range (1, 6971), 12.6%, 01:59 left
+Sampling lights at 25 FPS: frame 929 in range (1, 6971), 13.3%, 01:58 left
+Sampling lights at 25 FPS: frame 981 in range (1, 6971), 14.1%, 01:57 left
+Sampling lights at 25 FPS: frame 1025 in range (1, 6971), 14.7%, 01:57 left
+Sampling lights at 25 FPS: frame 1076 in range (1, 6971), 15.4%, 01:56 left
+Sampling lights at 25 FPS: frame 1130 in range (1, 6971), 16.2%, 01:54 left
+Sampling lights at 25 FPS: frame 1182 in range (1, 6971), 17.0%, 01:53 left
+Sampling lights at 25 FPS: frame 1233 in range (1, 6971), 17.7%, 01:52 left
+Sampling lights at 25 FPS: frame 1284 in range (1, 6971), 18.4%, 01:51 left
+Sampling lights at 25 FPS: frame 1335 in range (1, 6971), 19.2%, 01:50 left
+Sampling lights at 25 FPS: frame 1385 in range (1, 6971), 19.9%, 01:49 left
+Sampling lights at 25 FPS: frame 1436 in range (1, 6971), 20.6%, 01:48 left
+Sampling lights at 25 FPS: frame 1479 in range (1, 6971), 21.2%, 01:48 left
+Sampling lights at 25 FPS: frame 1531 in range (1, 6971), 22.0%, 01:47 left
+Sampling lights at 25 FPS: frame 1582 in range (1, 6971), 22.7%, 01:46 left
+Sampling lights at 25 FPS: frame 1635 in range (1, 6971), 23.5%, 01:45 left
+Sampling lights at 25 FPS: frame 1687 in range (1, 6971), 24.2%, 01:44 left
+Sampling lights at 25 FPS: frame 1739 in range (1, 6971), 24.9%, 01:43 left
+Sampling lights at 25 FPS: frame 1791 in range (1, 6971), 25.7%, 01:42 left
+Sampling lights at 25 FPS: frame 1843 in range (1, 6971), 26.4%, 01:41 left
+Sampling lights at 25 FPS: frame 1894 in range (1, 6971), 27.2%, 01:40 left
+Sampling lights at 25 FPS: frame 1946 in range (1, 6971), 27.9%, 01:39 left
+Sampling lights at 25 FPS: frame 1998 in range (1, 6971), 28.7%, 01:37 left
+Sampling lights at 25 FPS: frame 2040 in range (1, 6971), 29.3%, 01:37 left
+Sampling lights at 25 FPS: frame 2091 in range (1, 6971), 30.0%, 01:36 left
+Sampling lights at 25 FPS: frame 2142 in range (1, 6971), 30.7%, 01:35 left
+Sampling lights at 25 FPS: frame 2195 in range (1, 6971), 31.5%, 01:34 left
+Sampling lights at 25 FPS: frame 2247 in range (1, 6971), 32.2%, 01:33 left
+Sampling lights at 25 FPS: frame 2298 in range (1, 6971), 33.0%, 01:32 left
+Sampling lights at 25 FPS: frame 2350 in range (1, 6971), 33.7%, 01:31 left
+Sampling lights at 25 FPS: frame 2394 in range (1, 6971), 34.3%, 01:30 left
+Sampling lights at 25 FPS: frame 2425 in range (1, 6971), 34.8%, 01:30 left
+Sampling lights at 25 FPS: frame 2476 in range (1, 6971), 35.5%, 01:29 left
+Sampling lights at 25 FPS: frame 2526 in range (1, 6971), 36.2%, 01:28 left
+Sampling lights at 25 FPS: frame 2577 in range (1, 6971), 37.0%, 01:27 left
+Sampling lights at 25 FPS: frame 2629 in range (1, 6971), 37.7%, 01:26 left
+Sampling lights at 25 FPS: frame 2679 in range (1, 6971), 38.4%, 01:25 left
+Sampling lights at 25 FPS: frame 2717 in range (1, 6971), 39.0%, 01:25 left
+Sampling lights at 25 FPS: frame 2768 in range (1, 6971), 39.7%, 01:24 left
+Sampling lights at 25 FPS: frame 2820 in range (1, 6971), 40.5%, 01:23 left
+Sampling lights at 25 FPS: frame 2870 in range (1, 6971), 41.2%, 01:22 left
+Sampling lights at 25 FPS: frame 2917 in range (1, 6971), 41.8%, 01:21 left
+Sampling lights at 25 FPS: frame 2955 in range (1, 6971), 42.4%, 01:20 left
+Sampling lights at 25 FPS: frame 2992 in range (1, 6971), 42.9%, 01:20 left
+Sampling lights at 25 FPS: frame 3040 in range (1, 6971), 43.6%, 01:19 left
+Sampling lights at 25 FPS: frame 3091 in range (1, 6971), 44.3%, 01:18 left
+Sampling lights at 25 FPS: frame 3141 in range (1, 6971), 45.1%, 01:17 left
+Sampling lights at 25 FPS: frame 3191 in range (1, 6971), 45.8%, 01:16 left
+Sampling lights at 25 FPS: frame 3242 in range (1, 6971), 46.5%, 01:15 left
+Sampling lights at 25 FPS: frame 3292 in range (1, 6971), 47.2%, 01:14 left
+Sampling lights at 25 FPS: frame 3342 in range (1, 6971), 47.9%, 01:13 left
+Sampling lights at 25 FPS: frame 3392 in range (1, 6971), 48.7%, 01:12 left
+Sampling lights at 25 FPS: frame 3442 in range (1, 6971), 49.4%, 01:11 left
+Sampling lights at 25 FPS: frame 3492 in range (1, 6971), 50.1%, 01:10 left
+Sampling lights at 25 FPS: frame 3542 in range (1, 6971), 50.8%, 01:09 left
+Sampling lights at 25 FPS: frame 3573 in range (1, 6971), 51.3%, 01:09 left
+Sampling lights at 25 FPS: frame 3612 in range (1, 6971), 51.8%, 01:08 left
+Sampling lights at 25 FPS: frame 3651 in range (1, 6971), 52.4%, 01:07 left
+Sampling lights at 25 FPS: frame 3701 in range (1, 6971), 53.1%, 01:06 left
+Sampling lights at 25 FPS: frame 3752 in range (1, 6971), 53.8%, 01:05 left
+Sampling lights at 25 FPS: frame 3802 in range (1, 6971), 54.5%, 01:04 left
+Sampling lights at 25 FPS: frame 3852 in range (1, 6971), 55.3%, 01:03 left
+Sampling lights at 25 FPS: frame 3903 in range (1, 6971), 56.0%, 01:02 left
+Sampling lights at 25 FPS: frame 3953 in range (1, 6971), 56.7%, 01:01 left
+Sampling lights at 25 FPS: frame 4004 in range (1, 6971), 57.4%, 01:00 left
+Sampling lights at 25 FPS: frame 4055 in range (1, 6971), 58.2%, 00:59 left
+Sampling lights at 25 FPS: frame 4105 in range (1, 6971), 58.9%, 00:58 left
+Sampling lights at 25 FPS: frame 4155 in range (1, 6971), 59.6%, 00:57 left
+Sampling lights at 25 FPS: frame 4193 in range (1, 6971), 60.1%, 00:56 left
+Sampling lights at 25 FPS: frame 4238 in range (1, 6971), 60.8%, 00:56 left
+Sampling lights at 25 FPS: frame 4290 in range (1, 6971), 61.5%, 00:54 left
+Sampling lights at 25 FPS: frame 4341 in range (1, 6971), 62.3%, 00:53 left
+Sampling lights at 25 FPS: frame 4393 in range (1, 6971), 63.0%, 00:52 left
+Sampling lights at 25 FPS: frame 4445 in range (1, 6971), 63.8%, 00:51 left
+Sampling lights at 25 FPS: frame 4496 in range (1, 6971), 64.5%, 00:50 left
+Sampling lights at 25 FPS: frame 4537 in range (1, 6971), 65.1%, 00:49 left
+Sampling lights at 25 FPS: frame 4569 in range (1, 6971), 65.5%, 00:49 left
+Sampling lights at 25 FPS: frame 4596 in range (1, 6971), 65.9%, 00:49 left
+Sampling lights at 25 FPS: frame 4634 in range (1, 6971), 66.5%, 00:48 left
+Sampling lights at 25 FPS: frame 4671 in range (1, 6971), 67.0%, 00:47 left
+Sampling lights at 25 FPS: frame 4709 in range (1, 6971), 67.6%, 00:47 left
+Sampling lights at 25 FPS: frame 4746 in range (1, 6971), 68.1%, 00:46 left
+Sampling lights at 25 FPS: frame 4783 in range (1, 6971), 68.6%, 00:45 left
+Sampling lights at 25 FPS: frame 4820 in range (1, 6971), 69.1%, 00:45 left
+Sampling lights at 25 FPS: frame 4857 in range (1, 6971), 69.7%, 00:44 left
+Sampling lights at 25 FPS: frame 4894 in range (1, 6971), 70.2%, 00:43 left
+Sampling lights at 25 FPS: frame 4932 in range (1, 6971), 70.8%, 00:43 left
+Sampling lights at 25 FPS: frame 4969 in range (1, 6971), 71.3%, 00:42 left
+Sampling lights at 25 FPS: frame 5006 in range (1, 6971), 71.8%, 00:41 left
+Sampling lights at 25 FPS: frame 5043 in range (1, 6971), 72.3%, 00:40 left
+Sampling lights at 25 FPS: frame 5081 in range (1, 6971), 72.9%, 00:40 left
+Sampling lights at 25 FPS: frame 5118 in range (1, 6971), 73.4%, 00:39 left
+Sampling lights at 25 FPS: frame 5155 in range (1, 6971), 73.9%, 00:38 left
+Sampling lights at 25 FPS: frame 5192 in range (1, 6971), 74.5%, 00:38 left
+Sampling lights at 25 FPS: frame 5229 in range (1, 6971), 75.0%, 00:37 left
+Sampling lights at 25 FPS: frame 5267 in range (1, 6971), 75.6%, 00:36 left
+Sampling lights at 25 FPS: frame 5304 in range (1, 6971), 76.1%, 00:35 left
+Sampling lights at 25 FPS: frame 5342 in range (1, 6971), 76.6%, 00:35 left
+Sampling lights at 25 FPS: frame 5378 in range (1, 6971), 77.1%, 00:34 left
+Sampling lights at 25 FPS: frame 5415 in range (1, 6971), 77.7%, 00:33 left
+Sampling lights at 25 FPS: frame 5453 in range (1, 6971), 78.2%, 00:32 left
+Sampling lights at 25 FPS: frame 5490 in range (1, 6971), 78.8%, 00:32 left
+Sampling lights at 25 FPS: frame 5530 in range (1, 6971), 79.3%, 00:31 left
+Sampling lights at 25 FPS: frame 5566 in range (1, 6971), 79.8%, 00:30 left
+Sampling lights at 25 FPS: frame 5603 in range (1, 6971), 80.4%, 00:29 left
+Sampling lights at 25 FPS: frame 5641 in range (1, 6971), 80.9%, 00:29 left
+Sampling lights at 25 FPS: frame 5678 in range (1, 6971), 81.5%, 00:28 left
+Sampling lights at 25 FPS: frame 5715 in range (1, 6971), 82.0%, 00:27 left
+Sampling lights at 25 FPS: frame 5753 in range (1, 6971), 82.5%, 00:26 left
+Sampling lights at 25 FPS: frame 5781 in range (1, 6971), 82.9%, 00:26 left
+Sampling lights at 25 FPS: frame 5819 in range (1, 6971), 83.5%, 00:25 left
+Sampling lights at 25 FPS: frame 5858 in range (1, 6971), 84.0%, 00:24 left
+Sampling lights at 25 FPS: frame 5897 in range (1, 6971), 84.6%, 00:23 left
+Sampling lights at 25 FPS: frame 5935 in range (1, 6971), 85.1%, 00:22 left
+Sampling lights at 25 FPS: frame 5972 in range (1, 6971), 85.7%, 00:22 left
+Sampling lights at 25 FPS: frame 6010 in range (1, 6971), 86.2%, 00:21 left
+Sampling lights at 25 FPS: frame 6048 in range (1, 6971), 86.8%, 00:20 left
+Sampling lights at 25 FPS: frame 6086 in range (1, 6971), 87.3%, 00:19 left
+Sampling lights at 25 FPS: frame 6124 in range (1, 6971), 87.8%, 00:18 left
+Sampling lights at 25 FPS: frame 6161 in range (1, 6971), 88.4%, 00:18 left
+Sampling lights at 25 FPS: frame 6198 in range (1, 6971), 88.9%, 00:17 left
+Sampling lights at 25 FPS: frame 6236 in range (1, 6971), 89.5%, 00:16 left
+Sampling lights at 25 FPS: frame 6274 in range (1, 6971), 90.0%, 00:15 left
+Sampling lights at 25 FPS: frame 6311 in range (1, 6971), 90.5%, 00:14 left
+Sampling lights at 25 FPS: frame 6348 in range (1, 6971), 91.1%, 00:14 left
+Sampling lights at 25 FPS: frame 6386 in range (1, 6971), 91.6%, 00:13 left
+Sampling lights at 25 FPS: frame 6424 in range (1, 6971), 92.2%, 00:12 left
+Sampling lights at 25 FPS: frame 6462 in range (1, 6971), 92.7%, 00:11 left
+Sampling lights at 25 FPS: frame 6499 in range (1, 6971), 93.2%, 00:10 left
+Sampling lights at 25 FPS: frame 6536 in range (1, 6971), 93.8%, 00:09 left
+Sampling lights at 25 FPS: frame 6573 in range (1, 6971), 94.3%, 00:09 left
+Sampling lights at 25 FPS: frame 6610 in range (1, 6971), 94.8%, 00:08 left
+Sampling lights at 25 FPS: frame 6647 in range (1, 6971), 95.4%, 00:07 left
+Sampling lights at 25 FPS: frame 6685 in range (1, 6971), 95.9%, 00:06 left
+Sampling lights at 25 FPS: frame 6722 in range (1, 6971), 96.4%, 00:05 left
+Sampling lights at 25 FPS: frame 6760 in range (1, 6971), 97.0%, 00:04 left
+Sampling lights at 25 FPS: frame 6799 in range (1, 6971), 97.5%, 00:03 left
+Sampling lights at 25 FPS: frame 6837 in range (1, 6971), 98.1%, 00:03 left
+Sampling lights at 25 FPS: frame 6875 in range (1, 6971), 98.6%, 00:02 left
+Sampling lights at 25 FPS: frame 6912 in range (1, 6971), 99.2%, 00:01 left
+Sampling lights at 25 FPS: frame 6950 in range (1, 6971), 99.7%, 00:00 left
+Sampling lights at 25 FPS: frame 6971 in range (1, 6971), 100.0%, 00:00 left
+: done.
+Exporting show to Skybrush .skyc format (100 drones, local)...
+Exporting show to Skybrush .skyc format (100 drones, local): done.
+Info: Export successful: C:\FlybitComposer\flybit-composer\exports\1119-101431\new-drone-show.skyc (456.7 KB)
+PROGRESS 100 Done
+Blender 5.2.3 LTS (hash e13b728c6880 built 2026-10-22 01:37:16)
+
+Blender quit
