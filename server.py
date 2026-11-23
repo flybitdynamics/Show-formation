@@ -899,8 +899,30 @@ def main():
         export_job(job, show)
         print(json.dumps({k: job[k] for k in ("status", "message", "report", "id")}, indent=1)[:6000])
         return
-    server = ThreadingHTTPServer(("127.0.0.1", int(CFG["port"])), Handler)
-    print("Flybit Composer running at http://localhost:%s  (Blender: %s)" % (CFG["port"], CFG["blender"]), flush=True)
+
+    desired_port = int(CFG["port"])
+    for i, arg in enumerate(sys.argv):
+        if arg == "--port" and i + 1 < len(sys.argv):
+            try:
+                desired_port = int(sys.argv[i + 1])
+            except ValueError:
+                pass
+
+    ports_to_try = [desired_port] + [p for p in [8766, 8767, 8080, 8000] if p != desired_port]
+    server = None
+    actual_port = None
+    for p in ports_to_try:
+        try:
+            server = ThreadingHTTPServer(("127.0.0.1", p), Handler)
+            actual_port = p
+            break
+        except OSError as ex:
+            if p == desired_port and len(ports_to_try) > 1:
+                print("Notice: Port %s could not be bound (%s). Trying fallback port..." % (p, ex), flush=True)
+            elif p == ports_to_try[-1]:
+                raise
+
+    print("Flybit Composer running at http://localhost:%s  (Blender: %s)" % (actual_port, CFG["blender"]), flush=True)
     server.serve_forever()
 
 
